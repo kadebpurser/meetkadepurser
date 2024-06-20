@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif !important; /* Font family */
+    color: #333 !important; /* Font color */
+
+}
+
+header {
+    background-color: rgba(0, 51, 102, 0.8) !important; /* Slightly transparent background color */
+    color: #fff !important;
+    padding: 50px !important; /* Reduced padding */
+    text-align: center !important;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 1px; /* Add margin to separate from the navbar */
+}
+
+.navbar {
+    background-color: #333 !important; /* Ensure navbar is distinguishable */
+    z-index: 2;
+    position: relative;
+    margin-bottom: 30px; /* Add margin to separate from the content */
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+    color: #fff !important;
+}
+
+.navbar-brand:hover, .navbar-nav .nav-link:hover {
+    color: #ddd !important;
+}
+
+.navbar .navbar-toggler {
+    color: #fff !important;
+    border-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+nav a {
+    color: #fff !important;
+    text-decoration: none !important;
+    margin: 0 10px !important;
+}
+
+#top-link {
+    background-color: rgba(0, 51, 102, 0.9) !important; /* Match the header's background */
+    color: #fff !important;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    margin-bottom: 10px; /* Reduced margin */
+}
+
+section {
+    margin: 20px !important;
+    padding: 20px !important;
+    background-color: rgba(255, 255, 255, 0.9) !important; /* Slightly transparent white background */
+    border-radius: 8px !important;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1) !important;
+}
+
+.image-container img {
+    width: 100% !important;
+    border-radius: 8px !important;
+}
+
+.video-container iframe {
+    width: 100% !important;
+    height: 315px !important;
+    border-radius: 8px !important;
+}
+
+.tableau-container iframe {
+    width: 100% !important;
+    height: 600px !important;
+}
+
+footer {
+    text-align: center !important;
+    padding: 20px !important;
+    background-color: rgba(0, 51, 102, 0.8) !important; /* Slightly transparent background color */
+    color: #fff !important;
+}
+
+.insights {
+    margin-top: 20px !important;
+    padding: 15px !important;
+    background-color: rgba(233, 233, 233, 0.9) !important; /* Slightly transparent background */
+    border-radius: 8px !important;
+}
+
+/* Additional Style Definitions */
+.header {
+    background-color: #4CAF50 !important; /* Additional style 1 */
+    padding: 30px !important;
+    text-align: center !important;
+}
+
+.navbar {
+    background-color: #333 !important; /* Additional style 2 */
+    overflow: hidden !important;
+    z-index: 2;
+    position: relative;
+}
+
+.navbar a {
+    float: left !important;
+    display: block !important;
+    color: #f2f2f2 !important;
+    text-align: center !important;
+    padding: 15px 1px !important;
+    text-decoration: none !important;
+}
+
+.navbar a:hover {
+    background-color: #ddd !important;
+    color: black !important;
+}
